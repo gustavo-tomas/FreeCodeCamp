@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<link href="style.css" rel="stylesheet">
+<html>
+    <body>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+        
+        <main id="main-doc">
+          
+          <section id="introduction" class="main-section">
+            <header>Introduction</header>
+            <p>The c++ (also reffered as cpp) programming language is an imperative, object oriented, generic language widely used in many applications due to its efficiency. In this page, some key aspects of the syntax will be explained.</p>
+          </section>
+          
+          <section id="applications" class="main-section">
+            <header>Applications</header>
+            <p>As c++ is a compiled language, as opposed to an interpreted one such as python, it is very efficient. Moreover, it doesn't feature some high level concepts and abstractions (such as inferring a variable type) gaining some complexity in exchange for speed. That being said, features such as object oriented paradigm grants a mix between efficiency and versatility desired by many applications. Therefore, applications that require fast executions greatly benefit from c++'s design. Below is a list of common uses of cpp:</p>
+            <ul>
+              <li>Video Games</li>
+              <li>Physics Simulations</li>
+              <li>Operating Systems</li>
+              <li>Physics Engines</li>
+              <li>Mobile applications</li>
+            </ul>
+          </section>
+          
+          <section id="variables_and_constants" class="main-section">
+            <header>Variables and Constants</header>
+            <p>One of the key aspects of any programming languages, variables and constants are essencial for making calculations and storing values. Variables are terms that can store a specific value, such as <b>float</b>, <b>boolean</b>, <b>integer</b> or <b>char</b>. Here is how to declare a variable of type integer named "this is an integer" with value 0:</p>
+            <code>int this_is_an_integer = 0;</code>
+            <p>A constant is similar in declaration to a variable, but once the value of the constant has been set, it <b>cannot be changed</b>. Here is how to declare the same example as before:</p>
+            <code>const int this_is_an_integer = 0;</code>
+          </section>
+          
+          <section id="conditional_statements" class="main-section">
+            <header>Conditional Statements</header>
+            <p>Conditional statements are statements made to execute a given code if a certain condition is met. For example, the code below adds 1 to this_is_an_integer if it is equal to zero (here equality is expressed by "=="):</p>
+            <code>if(this_is_an_integer == 0) { this_is_an_integer += 1; }</code>
+          </section>
+          
+          <section  id="loop_statements" class="main-section">
+            <header>Loop Statements</header>
+            <p>Loop statements' behaviour is to repeat a certain action until a condition is met. There are two main types of loops in c++: <b>for</b> and <b>while</b>. Both do the same job but in different ways.</p>
+            <p>The for loop syntax consists of three elements: a starting condition, an ending condition and an action to do at the end of each loop. The code below adds 1 to our variable as long as it is less than 10:</p>
+            <code>for(this_is_an_integer = 0; this_is_an_integer < 10; this_is_an_integer++) { /* more stuff to do */ }</code>
+            <p>The while loop only contains a condition. The loop than repeats until the condition is not met. The code below works just like before:</p>
+            <code>while(this_is_an_integer < 10) { this_is_an_integer++; }</code>
+          </section>
+          
+          <section  id="further_reading" class="main-section">
+            <header>Further reading</header>
+            <p>C++ is a very important language in the market that's very likely to stay for a long time. If you found this article interesting, I encourage you to look deeper.</p>
+            <p>Here is a link for <a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank">further reading</a>.</p>
+          </section>
+          
+        </main>
+        <nav id="navbar" class="border">
+          <header class="nav-header">C++ Documentation</header>
+          <a class="nav-link" href="#introduction">Introduction</a>
+          <a class="nav-link" href="#applications">Applications</a>
+          <a class="nav-link" href="#variables_and_constants">Variables and Constants</a>
+          <a class="nav-link" href="#conditional_statements">Conditional Statements</a>
+          <a class="nav-link" href="#loop_statements">Loop Statements</a>
+          <a class="nav-link" href="#further_reading">Further reading</a>
+        </nav>
+    </body>
+</html>

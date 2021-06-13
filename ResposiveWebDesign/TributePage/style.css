@@ -1,0 +1,37 @@
+.title-color {
+  color: #050505;
+  font-family: Ubuntu, serif;
+}
+
+#image {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#img-caption {
+  margin: 3px;
+}
+
+body {
+  font-family: Lora, serif;
+  font-size: 17px;
+  text-align: center;
+  background-color: #b9b9b9;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #999999;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+
+ul {
+  text-align: left;
+}
+
+li {
+  margin: 11px;
+}
