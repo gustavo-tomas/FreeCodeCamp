@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200&display=swap');
+
+:root{
+  --color: hsl(220,30%,40%);
+  --hover-color: hsl(220,30%,25%);
+  --wrapper-color: white;
+  --margin-left: 70%;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  color: var(--color); 
+  background-color: var(--color);
+}
+ 
+#wrapper{
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  background-color: var(--wrapper-color);
+  width: 40vw;
+  border-radius: 4px;
+}
+
+#quote-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5%;
+}
+
+#text{
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+#author{
+  margin-left: var(--margin-left);
+  margin-top: 10px;
+}
+
+#bottom-half{
+  font-size: 0.9rem; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  width: 40%;
+  margin-right: 60%;
+  margin-top: 10px;
+}
+
+#new-quote{
+  margin-left: 10px; 
+  padding: 10px;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: var(--color);
+  background-color: var(--color);
+  color: var(--wrapper-color);
+  cursor: pointer;
+}
+
+#new-quote:hover {
+  border-color: var(--hover-color);
+  background-color: var(--hover-color);
+}
+
+#tweet-quote{
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: var(--color);
+}
+
+#tweet-quote:hover{
+  color: var(--hover-color);
+}
