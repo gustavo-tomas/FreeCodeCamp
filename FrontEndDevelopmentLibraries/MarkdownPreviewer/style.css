@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Space+Grotesk&display=swap');
 
 :root {
-    /* use with var(--variable) */
     --max-wrapper-height: 600px;
     --min-editor-height: 175px;
 }
@@ -16,7 +15,6 @@ body {
 
 .wrapper {
     width: 50%;
-    max-height: var(--max-wrapper-height);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -44,6 +42,7 @@ body {
     min-height: var(--min-editor-height);
     max-height: var(--max-wrapper-height);
     resize: vertical;
+    background-color: aliceblue;
     border-style: solid;
     border-width: 0px 1px 1px 1px;
     border-color: black;
@@ -58,7 +57,7 @@ body {
     font-family: 'Space Grotesk', sans-serif;
     width: 100%;
     min-height: 200px;
-    background-color: white;
+    background-color: aliceblue;
     border-style: solid;
     border-width: 0px 1px 1px 1px;
     padding: 5px;
