@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+
+:root {
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+body {
+    background-color: rgb(140, 191, 223);
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    margin-top: 7%;
+    color: #d14141;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+#drum-machine {
+    background-color: lightgray;
+    border-color: crimson;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 3px;
+    width: 600px;
+    height: 310px;
+}
+
+#display {
+    float: right;
+    width: 200px;
+    height: 100px;
+    background-color: steelblue;
+    position: relative;
+    top: 35%;
+    right: 8.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    border-radius: 3px;
+}
+
+#pads {
+    display: grid;
+    grid-template-rows: repeat(3,100px);
+    grid-template-columns: repeat(3,100px);
+    align-items: stretch;
+    width: 290px;
+    height: 290px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.drum-pad {
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 1.7rem;
+    font-weight: bold;
+    background-color: lightslategray;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+    color: crimson;
+    user-select: none;
+}
+
+.drum-pad:active {
+    box-shadow: none;
+    background-color: #dddd00;
+}

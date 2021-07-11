@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<link href='style.css' rel='stylesheet'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src='scripts.js'></script>
+<html>
+    <body>
+        <h1 id='title'>CSS Drum Machine</h1>
+        <div id='drum-machine'>
+            <div id='display'></div>
+            <audio id='oof' src='https://files.gamebanana.com/preview/sounds/killsound_9643b.mp3'></audio>
+            <div id='pads'>
+                <button onclick='playEffects("Q")' class='drum-pad' id='area-clear'>
+                    <audio id='Q' class='clip' src='https://github.com/sourcesounds/cstrike/blob/master/sound/bot/area_clear.wav?raw=true'></audio>
+                    Q
+                </button>
+                <button onclick='playEffects("W")' class='drum-pad' id='defusing'>
+                    <audio id='W' class='clip' src='https://github.com/sourcesounds/cstrike/blob/master/sound/bot/defusing.wav?raw=true'></audio>
+                    W
+                </button>
+                <button onclick='playEffects("E")' class='drum-pad' id='worry'>
+                    <audio id='E' class='clip' src='https://github.com/sourcesounds/cstrike/blob/master/sound/bot/dont_worry_hell_get_it.wav?raw=true'></audio>
+                    E
+                </button>
+                <button onclick='playEffects("A")' class='drum-pad' id='target'>
+                    <audio id='A' class='clip' src='https://github.com/sourcesounds/cstrike/blob/master/sound/bot/target_spotted.wav?raw=true'></audio>
+                    A
+                </button>
+                <button onclick='playEffects("S")' class='drum-pad' id='ak-shot'>
+                    <audio id='S' class='clip' src='https://github.com/sourcesounds/cstrike/blob/master/sound/weapons/ak47/ak47-1.wav?raw=true'></audio>
+                    S
+                </button>
+                <button onclick='playEffects("D")' class='drum-pad' id='death'>
+                    <audio id='D' class='clip' src='https://github.com/sourcesounds/cstrike/blob/master/sound/bot/pain10.wav?raw=true'></audio>
+                    D
+                </button>
+                <button onclick='playEffects("Z")' class='drum-pad' id='m4-shot'>
+                    <audio id='Z' class='clip' src='https://github.com/sourcesounds/cstrike/blob/master/sound/weapons/m4a1/m4a1-1.wav?raw=true'></audio>
+                    Z
+                </button>
+                <button onclick='playEffects("X")' class='drum-pad' id='defused'>
+                    <audio id='X' class='clip' src='https://github.com/sourcesounds/cstrike/blob/master/sound/radio/bombdef.wav?raw=true'></audio>
+                    X
+                </button>
+                <button onclick='playEffects("C")' class='drum-pad' id='yeah'>
+                    <audio id='C' class='clip' src='https://github.com/sourcesounds/cstrike/blob/master/sound/bot/yea_baby.wav?raw=true'></audio>
+                    C
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
