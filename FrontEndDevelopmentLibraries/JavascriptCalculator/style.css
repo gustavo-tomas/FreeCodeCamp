@@ -28,10 +28,22 @@ body {
 #display {
     background-color: gainsboro;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
     width: 318px;
     margin-bottom: 5px;
-    height: 20px;
+    height: 50px;
+}
+
+#currExpression {
+    color: rgb(22, 126, 22);
+    margin-right: 3px;
+    margin-top: 5px;
+}
+
+#typedNumber {
+    font-size: 1.2rem;
+    margin-right: 3px;
 }
 
 .buttons {
